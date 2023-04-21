@@ -1,0 +1,23 @@
+
+<main class="contenedor">
+    <h1>{{product.descripcion}}</h1>
+
+    <div class="camisa">
+        <img class="camisa__imagen" src="{{product.url}}" alt="Imagen del Producto">
+
+        <div class="camisa__contenido">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto et accusamus reiciendis. Sapiente deserunt sequi cumque. Tempore et asperiores quidem qui beatae dolorum, doloremque unde laudantium assumenda dolores nostrum in?</p>
+
+            <form class="formulario">
+                <select class="formulario__campo">
+                    <option disabled selected>-- Seleccionar Talla --</option>
+                    <option>Chica</option>
+                    <option>Mediana</option>
+                    <option>Grande</option>
+                </select>
+                <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+            </form>
+        </div>
+    </div>
+</main>
